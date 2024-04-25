@@ -135,6 +135,7 @@ int main()
             }
         }
     }
+    cout << "All possible outcomes after filtering numbers below 3 digit :";
 
     for (auto it = sol_AB.begin(); it != sol_AB.end(); it++)
         cout << *it << " ";
